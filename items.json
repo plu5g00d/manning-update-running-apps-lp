@@ -1,0 +1,42 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Husky Mechanics Toolset 270 Piece",
+            "price": 149.99,
+            "imgName": "husky.png"
+        },
+        {
+            "id": 2,
+            "name": "Dewalt Circular Saw",
+            "price": 7500,
+            "imgName": "dewalt.png"
+        },
+        {
+            "id": 3,
+            "name": "Crea Pull Out Kitchen Sink Faucet",
+            "price": 4300,
+            "imgName": "crea.png"
+        },
+        {
+            "id": 4,
+            "name": "Google Nest Thermostat",
+            "price": 24990,
+            "imgName": "nest.png"
+        }
+    ],
+    "merch": [
+        {
+            "id": 5,
+            "name": "Bridge Faucet with Sprayer",
+            "price": 1999,
+            "imgName": "bridge_faucet.png"
+        },
+        {
+            "id": 6,
+            "name": "Asian Paint (White) 4L",
+            "price": 300,
+            "imgName": "asian_paints.png"
+        }
+    ]
+}
