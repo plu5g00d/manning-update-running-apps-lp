@@ -21,7 +21,8 @@ app.listen(3000, function () {
   });
 
 app.get('/welcome', function(req, res) {
-    res.send('Welcome to HomeJoy website!');
+        console.log('Rendering version 1 of homepage...')
+        res.render('welcome');
 });
 
 app.get('/store', function(req,res){

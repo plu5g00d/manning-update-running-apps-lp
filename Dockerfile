@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:14.17.3 As development
+FROM node:fermium-alpine
 
 WORKDIR /usr/src/app
 
