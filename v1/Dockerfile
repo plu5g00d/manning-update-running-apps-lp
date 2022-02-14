@@ -1,4 +1,4 @@
-FROM node:fermium-alpine
+FROM node:14-alpine
 
 ADD app.js /app.js
 
