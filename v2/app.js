@@ -2,7 +2,7 @@
 const http = require('http');
 const os = require('os');
 
-console.log("HomeJoy shopping app starting...");
+console.log("BuildYourHome shopping app starting...");
 
 var handler = function(request, response) {
   console.log("Received request from " + request.connection.remoteAddress);
