@@ -1,0 +1,30 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red241\green241\blue241;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0\c83922;\cssrgb\c95686\c95686\c95686;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww18780\viewh8520\viewkind0
+\deftab720
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\fs42 \cf2 \cb3 \expnd0\expndtw0\kerning0
+1) Kubectl command used to update the image to version 2\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf2 \
+kubectl set image deploy/shopping-deploy -n shopping shopping=manningkubernetes/shopping-p3-m1:2.0
+\f1\fs26 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+
+\f0\fs42 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \cb3 2) Kubectl command to create a Nginx pod\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 \
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf2 kubectl run --restart=Never pinger --image=nginx\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf2 kubectl exec -it pinger -- sh -c "while true; do curl 10.106.3.99; sleep 1; done;" \
+}

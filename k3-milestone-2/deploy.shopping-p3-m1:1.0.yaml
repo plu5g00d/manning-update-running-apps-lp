@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: shopping-deploy
+  name: shopping-deploy
+  namespace: shopping
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: shopping
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: shopping
+        ver: "1.0"
+    spec:
+      containers:
+      - image: manningkubernetes/shopping-p3-m1:1.0
+        name: shopping
+        resources: {}
+status: {}
