@@ -1,0 +1,10 @@
+spec:
+  template:
+    metadata:
+      labels:
+        ver: "2.0"
+    spec:
+      containers:
+      - image: manningkubernetes/shopping-p3-m1:2.0
+        name: shopping
+
