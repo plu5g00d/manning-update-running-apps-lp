@@ -1,5 +1,5 @@
 ## Manning liveProject [Getting Started with Kubernetes](https://www.manning.com/liveprojectseries/getting-started-with-kubernetes-ser)
-## Project 4 [Update Running Apps](https://www.manning.com/liveproject/update-running-apps)
+## Project 3 [Update Running Apps](https://www.manning.com/liveproject/update-running-apps)
 
 This liveProject is divided into 4 milestones.
 
